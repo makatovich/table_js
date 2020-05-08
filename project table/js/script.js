@@ -74,9 +74,9 @@ formAddUser.addEventListener('submit', (event) => {
 
 function changeUserName () {
  
-     changeUerFirstName = prompt ('Input New Name');
-     changeUerLastName = prompt ('Input New Last Name');
-     changeUerAge = prompt ('Input New Age');
+     changeUserFirstName = prompt ('Input New Name');
+     changeUserLastName = prompt ('Input New Last Name');
+     changeUserAge = prompt ('Input New Age');
  
      let tr = this.closest('tr');
      tr.innerHTML = `
