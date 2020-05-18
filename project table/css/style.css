@@ -1,6 +1,9 @@
 table {
   border-collapse: collapse;
   margin-bottom: 35px;
+  width: 300 px;
+  margin-left:  460px;
+  display: center;
 }
 table tbody td {
   font-weight: bold;
@@ -18,12 +21,12 @@ td.header {
 }
 .btns_td {
   border: none;
-  padding: 20px 20px;
+  padding: 25px 25px;
 }
 form {
-  display: center;
   align-items: center;
-  margin-bottom: 10px;
+  margin-left: 460px;
+  display: center;
 }
 button {
   margin-left: 10px;
@@ -35,7 +38,7 @@ button.add_user {
   color: white;
   border-radius: 9px;
   padding: 10px 15px;
-  margin-left: 140px;
+  margin-left: 90px;
   margin-top: 10px;
 }
 button.add_user:hover {
@@ -67,8 +70,8 @@ input {
   background: none;
 }
 .fa {
-  transition: 0.3s;
-  font-size: 18px;
+  transition: 0.5s;
+  font-size: 20px;
   cursor: pointer;
 }
 .fa:hover {
